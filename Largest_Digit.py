@@ -1,9 +1,8 @@
-x=int(input())
-i=0
-while x>0:
-    r=x%10
-    x=x//10
-    if r>i:
-        i=r
-print(i)
-        
+n=int(input())
+largest=0
+while n>0:
+    r=n%10
+    if r>largest:
+        largest=r
+    n=n//10
+print(largest)
