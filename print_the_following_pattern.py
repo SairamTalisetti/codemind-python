@@ -1,5 +1,7 @@
 n=int(input())
-for i in range(n):
-    for i in range(n,0,-1):
-        print(i,end=" ")
+a=1
+while a<=n:
+    for i in range(1,a+1):
+        print(i,end="")
     print()
+    a=a+1
